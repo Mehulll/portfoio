@@ -1,0 +1,58 @@
+@import "../../global.scss";
+
+.intro {
+  display: flex;
+
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assests/inline_image_preview.jpg");  
+    .leftLeft{
+      span{
+        padding-left:8px;
+        font-size: 14.5px;
+        color:rgb(107, 85, 117);
+        font-family: 'Quattrocento', serif;
+
+      }   
+
+      h1{
+        font-family: 'Quattrocento', serif;
+        color:white;
+        margin:5px;
+        font-size: 50px;
+      }
+    }
+
+    .leftRight{
+      margin-left:50px;
+      button{
+        background-color: transparent;
+        color:white;
+        border-radius: 6.5px;
+        border: 2px solid white;
+        padding:10px;
+        margin:10px;
+        cursor: pointer;
+        
+        a{
+          text-decoration: none;
+          color:white;
+        }
+      }
+    }
+      @include mobile{
+        align-items: flex-start;
+      }
+    }
+}

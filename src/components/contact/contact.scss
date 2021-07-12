@@ -1,0 +1,81 @@
+@import "../../global.scss";
+
+.contact {
+  background-image: url(../../assests/lamp.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span{
+    color:rgb(180, 63, 171);
+    font-weight: bold;
+    margin-top: 80px;
+  }
+
+  h1{
+    color:white;
+    font-family: 'Quattrocento', serif;
+    font-size: 50px;
+    margin: 15px;
+  }
+
+  p{
+    color:gray;
+    font-weight: bold;
+  }
+
+  .content{
+    margin:50px;
+    display: flex;
+
+    .contactLeft{
+      margin-right: 150px;
+      flex:6;
+      label{
+        width:100px;
+        color:gray;
+      }
+
+      input{
+        color: white;
+        margin-bottom: 30px;
+        border:none;
+        outline: none;
+        background:transparent;
+        border-bottom: 0.15px solid  rgba(114, 111, 111,0.2);
+      }
+
+    }
+
+    .contactRight{
+      flex:6;
+      margin-left: 80px;
+      h4{
+        font-size: 13px;
+        color:white;
+        margin-bottom: 10px;
+        margin-top:25px;
+      }
+
+      span{
+        font-family: 'Quattrocento', serif;
+        color: gray;
+        font-weight: normal;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  @include mobile {
+    flex-direction: column;
+  }
+  button{
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(180,63,171);
+    font-weight: bold;
+    font-family: 'Quattrocento', serif;
+    border: none;
+    cursor: pointer;
+  }
+}
