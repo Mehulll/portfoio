@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfoio/static/css/main.10d83b01.chunk.css",
+    "main.js": "/portfoio/static/js/main.4d3a56c0.chunk.js",
+    "main.js.map": "/portfoio/static/js/main.4d3a56c0.chunk.js.map",
+    "runtime-main.js": "/portfoio/static/js/runtime-main.e43c2df9.js",
+    "runtime-main.js.map": "/portfoio/static/js/runtime-main.e43c2df9.js.map",
+    "static/js/2.a5e6a1e6.chunk.js": "/portfoio/static/js/2.a5e6a1e6.chunk.js",
+    "static/js/2.a5e6a1e6.chunk.js.map": "/portfoio/static/js/2.a5e6a1e6.chunk.js.map",
+    "index.html": "/portfoio/index.html",
+    "static/css/main.10d83b01.chunk.css.map": "/portfoio/static/css/main.10d83b01.chunk.css.map",
+    "static/js/2.a5e6a1e6.chunk.js.LICENSE.txt": "/portfoio/static/js/2.a5e6a1e6.chunk.js.LICENSE.txt",
+    "static/media/dashboard.6d3666ce.jpg": "/portfoio/static/media/dashboard.6d3666ce.jpg",
+    "static/media/github.c0199253.png": "/portfoio/static/media/github.c0199253.png",
+    "static/media/contact.scss": "/portfoio/static/media/lamp.6fe3d1ce.jpg",
+    "static/media/millionare.8d428a0b.jpg": "/portfoio/static/media/millionare.8d428a0b.jpg",
+    "static/media/netflix.1751af16.png": "/portfoio/static/media/netflix.1751af16.png",
+    "static/media/right-arrow.4a3b0519.png": "/portfoio/static/media/right-arrow.4a3b0519.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e43c2df9.js",
+    "static/js/2.a5e6a1e6.chunk.js",
+    "static/css/main.10d83b01.chunk.css",
+    "static/js/main.4d3a56c0.chunk.js"
+  ]
+}
