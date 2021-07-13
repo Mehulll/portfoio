@@ -17,7 +17,7 @@ export default function Testimonials() {
       icon: github,
       desc:
         "This is a react admin panel which can be merge with any website for manage their system.",
-      link: "",
+      link: "https://mehulll.github.io/dashboard/",
       linkg: "https://github.com/Mehulll"
     },
     {
